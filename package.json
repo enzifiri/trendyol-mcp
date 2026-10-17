@@ -1,6 +1,6 @@
 {
   "name": "trendyol-mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Trendyol Partner (Marketplace) API için MCP sunucusu: tüm geliştirici dokümantasyonu + 93 API işlemini yapay zekâ asistanlarına açar.",
   "keywords": [
     "mcp",
