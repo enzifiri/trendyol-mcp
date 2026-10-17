@@ -1,0 +1,262 @@
+# Integration Documentation Documentation
+
+> Documentation for Integration Documentation
+
+## Guides: documentation
+- [Pazaryeri İş Modelleri](https://developers.trendyol.com/docs/pazaryeri-i̇ş-modelleri-1.md)
+- [Entegrasyon Servislerine Genel Bakış](https://developers.trendyol.com/docs/getting-started.md): Trendyol Marketplace API ve Webhook entegrasyonları hakkında genel bilgiler ve örnek Postman koleksiyonları.
+- [1. Servis Limitleri](https://developers.trendyol.com/docs/1-servis-limitleri.md): Servis limitleri ve entegrasyon servisleri hakkında detaylı bilgi.
+- [2. Authorization](https://developers.trendyol.com/docs/2-authorization.md)
+- [3. Canlı-Test Ortam Bilgileri](https://developers.trendyol.com/docs/3-canlı-test-ortam-bilgileri.md): Bilgiler ve yönergeler: Trendyol canlı ve test ortamları için IP yetkilendirmesi ve erişim detayları.
+- [4. Sıkça Sorulan Sorular](https://developers.trendyol.com/docs/5-sıkça-sorulan-sorular.md)
+- [5. Nasıl Bildirim Oluşturabilirim](https://developers.trendyol.com/docs/6-nasıl-bildirim-oluşturabilirim.md)
+- 6. Trendyol Marketplace Entegrasyonu
+  - [Hata Kodları](https://developers.trendyol.com/docs/hata-kodları.md): **Marketplace entegrasyonundaki hata kodlarına aşağıdan ulaşabilirsiniz**
+  - Ürün Entegrasyonu V1
+    - [Ürün V1- API Endpoint](https://developers.trendyol.com/docs/ürün-api-endpoint.md): Ürün Servisleri ile ilgili kullanmanız gereken API listesi
+    - [Trendyol Marka Listesi (getBrands)](https://developers.trendyol.com/docs/trendyol-marka-listesi-getbrands.md): Trendyol marka bilgilerini almak için kullanılan API detayları.
+    - [Trendyol Kategori Listesi (getCategoryTree)](https://developers.trendyol.com/docs/trendyol-kategori-listesi-getcategorytree.md): Trendyol kategori bilgileri ve getCategoryTree servisi hakkında detaylı bilgi.
+    - [Trendyol Kategori - Özellik Listesi V1 (getCategoryAttributes)](https://developers.trendyol.com/docs/trendyol-kategori-özellik-listesi-getcategoryattributes.md): Trendyol kategori özelliklerini almak için gerekli API bilgileri ve örnekler.
+    - [Ürün Aktarma V1 (createProducts)](https://developers.trendyol.com/docs/ürün-aktarma-v2createproducts.md): Trendyol sistemine ürün aktarımı ve varyantlama işlemleri hakkında detaylı bilgi.
+    - [Ürün Bilgisi Güncelleme V1 (updateProduct)](https://developers.trendyol.com/docs/ürün-bilgisi-güncelleme-updateproduct.md): Trendyol mağazanızda ürün bilgilerini güncelleme servisi hakkında detaylı bilgi.
+    - [Stok ve Fiyat Güncelleme (updatePriceAndInventory)](https://developers.trendyol.com/docs/stok-ve-fiyat-güncelleme-updatepriceandinventory.md): Trendyol ürünlerinin fiyat ve stok bilgilerini güncelleme kılavuzu. Maksimum 1000 SKU güncellenebilir.
+    - [Ürün Silme](https://developers.trendyol.com/docs/ürün-silme.md): Trendyol sisteminden ürün silme işlemi hakkında detaylı bilgi ve örnekler.
+    - [Toplu İşlem Kontrolü (getBatchRequestResult)](https://developers.trendyol.com/docs/toplu-i̇şlem-kontrolü-getbatchrequestresult.md)
+    - [Ürün Filtreleme V1 (filterProducts)](https://developers.trendyol.com/docs/ürün-filtreleme-filterproducts.md)
+    - [Ürün Arşivleme (archiveProducts)](https://developers.trendyol.com/docs/ürün-arşivleme.md)
+    - [Ürün Buybox Kontrol Servisi](https://developers.trendyol.com/docs/ürün-buybox-kontrol-servisi.md)
+    - [Ürün Kilit Kaldırma Servisi](https://developers.trendyol.com/docs/ürün-kilit-kaldırma-servisi.md)
+  - Sipariş Entegrasyonu
+    - [Sipariş Süreci Akışı](https://developers.trendyol.com/docs/sipariş-süreci-akışı.md)
+    - [Test Siparişi Oluşturma](https://developers.trendyol.com/docs/test-siparişi-oluşturma.md)
+    - [Sipariş Paketlerini Çekme (getShipmentPackages)](https://developers.trendyol.com/docs/sipariş-paketlerini-çekme-getshipmentpackages.md)
+    - [Sipariş Paketlerini Akış ile Çekme (getShipmentPackagesStream)](https://developers.trendyol.com/docs/sipariş-paketlerini-akış-ile-çekme.md)
+    - [Paket Statü Bildirimi (updatePackage)](https://developers.trendyol.com/docs/paket-statü-bildirimi-updatepackage.md)
+    - [Tedarik Edememe Bildirimi (updatePackage)](https://developers.trendyol.com/docs/tedarik-edememe-bildirimi-updatepackage.md)
+    - [Sipariş Paketlerini Bölme (splitShipmentPackage)](https://developers.trendyol.com/docs/sipariş-paketlerini-bölme-splitshipmentpackage.md)
+    - [Desi ve Koli Bilgisi Bildirimi (updateBoxInfo)](https://developers.trendyol.com/docs/desi-ve-koli-bilgisi-bildirimi-updateboxinfo.md)
+    - [Alternatif Teslimat İle Gönderim](https://developers.trendyol.com/docs/alternatif-teslimat-i̇le-gönderim.md)
+    - [Yetkili Servis İle Gönderim](https://developers.trendyol.com/docs/yetkili-servis-i̇le-gönderim.md)
+    - [Paket Kargo Firması Değiştirme(changeCargoProvider)](https://developers.trendyol.com/docs/paket-kargo-firması-değiştirmechangecargoprovider.md)
+    - [Depo Bilgisi Güncelleme](https://developers.trendyol.com/docs/depo-bilgisi-güncelleme.md)
+    - [Test Siparişlerinde Statü Güncellemeleri](https://developers.trendyol.com/docs/test-siparişlerinde-statü-güncellemeleri.md)
+    - [Adres Bilgileri](https://developers.trendyol.com/docs/adres-bilgileri.md)
+    - [İşçilik Bedeli Tutarı Gönderme](https://developers.trendyol.com/docs/i̇şçilik-bedeli-tutarı-gönderme.md)
+    - [Kargo Firmaları](https://developers.trendyol.com/docs/kargo-firmaları.md)
+    - [Sipariş Paketlerini Çekme Servisindeki İndirim Gösterimleri](https://developers.trendyol.com/docs/sipariş-paketlerini-çekme-servisindeki-i̇ndirim-gösterimleri.md)
+  - Webhook (Sipariş Paketleri)
+    - [Webhook Model](https://developers.trendyol.com/docs/webhook-model.md)
+    - [Webhook Yaratma](https://developers.trendyol.com/docs/webhook-yaratma.md)
+    - [Webhook Listeleme](https://developers.trendyol.com/docs/webhook-listeleme.md)
+    - [Webhook Güncelleme](https://developers.trendyol.com/docs/webhook-güncelleme.md)
+    - [Webhook Silme](https://developers.trendyol.com/docs/webhook-silme.md)
+    - [Webhook Aktife/Pasife Alma](https://developers.trendyol.com/docs/webhook-aktifpasif-alma.md)
+  - Teslimat Entegrasyonu
+    - [Ortak Etiket Barkod Talebi (createCommonLabel)](https://developers.trendyol.com/docs/ortak-etiket-barkod-talebi-createcommonlabel.md)
+    - [Ortak Etiket Oluşan Barkodun Alınması (getCommonLabel)](https://developers.trendyol.com/docs/ortak-etiket-oluşan-barkodun-alınması-getcommonlabel.md)
+    - [AB Ürün Etiketi ile Birlikte Ortak Etiket Barkodun Alınması](https://developers.trendyol.com/docs/ab-ürün-etiketi-ile-birlikte-ortak-etiket-barkodun-alınması.md)
+    - [Tazmin Entegrasyonu](https://developers.trendyol.com/docs/tazmin-entegrasyonu.md)
+  - İade Entegrasyonu
+    - [İade Süreci Akışı](https://developers.trendyol.com/docs/i̇ade-süreci-akışı.md)
+    - [İadesi Oluşturulan Siparişleri Çekme (getClaims)](https://developers.trendyol.com/docs/i̇adesi-oluşturulan-siparişleri-çekme-getclaims.md)
+    - [İade Sebepleri](https://developers.trendyol.com/docs/i̇ade-sebepleri.md)
+    - [İade Siparişleri Onaylama (approveClaimLineItems)](https://developers.trendyol.com/docs/i̇ade-siparişleri-onaylama-approveclaimlineitems.md)
+    - [İade Red Sebeplerini Çekme (getClaimsIssueReasons)](https://developers.trendyol.com/docs/i̇ade-red-sebeplerini-çekme-getclaimsissuereasons.md)
+    - [İade Siparişlerinde Ret Talebi Oluşturma (createClaimIssue)](https://developers.trendyol.com/docs/i̇ade-siparişlerinde-ret-talebi-oluşturma-createclaimissue.md)
+    - [İade Audit Bilgilerini Çekme](https://developers.trendyol.com/docs/i̇ade-audit-bilgilerini-çekme.md)
+    - [İade Talebi Oluşturma (createClaim)](https://developers.trendyol.com/docs/i̇ade-talebi-oluşturma-createclaim.md)
+  - Soru Cevap Entegrasyonu
+    - [Müşteri Sorularını Çekme](https://developers.trendyol.com/docs/müşteri-sorularını-çekme.md)
+    - [Müşteri Sorularını Cevaplama](https://developers.trendyol.com/docs/müşteri-sorularını-cevaplama.md)
+    - [Stage Ortamda Müşteri Sorusu Oluşturma](https://developers.trendyol.com/docs/stage-ortamda-müşteri-sorusu-oluşturma.md): Stage ortamdaki testlerinizi ilerletebilmek için aşağıdaki servis ile ürün sorusu oluşturabilirsiniz.
+  - Satıcı Bilgileri Entegrasyonu
+    - [İade ve Sevkiyat Adres Bilgileri (getSuppliersAddresses)](https://developers.trendyol.com/docs/i̇ade-ve-sevkiyat-adres-bilgileri-getsuppliersaddresses.md): İade ve sevkiyat adres bilgilerini almak için kullanılan getSuppliersAddresses servisi hakkında bilgi.
+  - Fatura Entegrasyonu
+    - [Fatura Linki Gönderme (sendInvoiceLink)](https://developers.trendyol.com/docs/fatura-linki-gönderme-sendinvoicelink.md)
+    - [Fatura Linki Silme](https://developers.trendyol.com/docs/fatura-linki-silme.md)
+    - [Fatura Dosyası Gönderme](https://developers.trendyol.com/docs/fatura-dosyası-gönderme.md)
+  - Ürün Entegrasyonu V2
+    - [Ürün V2- API Servisleri](https://developers.trendyol.com/docs/ürün-v2-api-endpoint.md)
+    - [Ürün Yaratma Akışı](https://developers.trendyol.com/docs/ürün-yaratma-akışı.md)
+    - [Trendyol Marka Listesi (getBrands)](https://developers.trendyol.com/docs/trendyol-marka-listesi-getbrands-1.md)
+    - [Trendyol Kategori Listesi (getCategoryTree)](https://developers.trendyol.com/docs/trendyol-kategori-listesi-getcategorytree-1.md): Trendyol kategori bilgileri ve getCategoryTree servisi hakkında detaylı bilgi.
+    - [Kategori Özellik Listesi v2](https://developers.trendyol.com/docs/kategori-özellik-listesi-v2.md)
+    - [Kategori Özellik Değerleri Listesi v2](https://developers.trendyol.com/docs/kategori-özellik-değerleri-listesi-v2.md)
+    - [Ürün Yaratma v2](https://developers.trendyol.com/docs/ürün-yaratma-v2.md)
+    - [Ürün Güncelleme - Onaysız Ürün v2](https://developers.trendyol.com/docs/ürün-güncelleme-onaysız-ürün-v2.md)
+    - [Ürün Güncelleme - Onaylı Ürün v2](https://developers.trendyol.com/docs/ürün-güncelleme-onaylı-ürün-v2.md): Trendyol mağazanızda bulunan onaylı ürünlerin content, varyant ve teslimat bilgilerini güncelleme yöntemleri.
+    - [Stok ve Fiyat Güncelleme (updatePriceAndInventory)](https://developers.trendyol.com/docs/stok-ve-fiyat-güncelleme-updatepriceandinventory-1.md): Trendyol ürünlerinin fiyat ve stok bilgilerini güncelleme kılavuzu. Maksimum 1000 SKU güncellenebilir.
+    - [Toplu İşlem Kontrolü (getBatchRequestResult)](https://developers.trendyol.com/docs/toplu-i̇şlem-kontrolü-getbatchrequestresult-1.md)
+    - [Ürün Silme](https://developers.trendyol.com/docs/ürün-silme-1.md): Trendyol sisteminden ürün silme işlemi hakkında detaylı bilgi ve örnekler.
+    - [Ürün Filtreleme - Temel Bilgiler v2](https://developers.trendyol.com/docs/ürün-filtreleme-temel-bilgiler-v2.md)
+    - [Ürün Filtreleme - Onaysız Ürün v2](https://developers.trendyol.com/docs/ürün-filtreleme-onaysız-ürün-v2.md)
+    - [Ürün Filtreleme - Onaylı Ürün v2](https://developers.trendyol.com/docs/ürün-filtreleme-onaylı-ürün-v2.md)
+    - [Ürün Filtreleme – Onaylı Ürün V2 Stok ve Fiyat](https://developers.trendyol.com/docs/ürün-filtreleme-onaylı-ürün-v2-stok-ve-fiyat.md)
+    - [Ürün Arşivleme (archiveProducts)](https://developers.trendyol.com/docs/ürün-arşivleme-archiveproducts.md)
+    - [Ürün Buybox Kontrol Servisi](https://developers.trendyol.com/docs/ürün-buybox-kontrol-servisi-1.md)
+    - [Ürün Kilit Kaldırma Servisi](https://developers.trendyol.com/docs/ürün-kilit-kaldırma-servisi-1.md)
+    - [Video Oluşturma / Listeleme Servisi](https://developers.trendyol.com/docs/seller-integration-video-api.md)
+    - [Menşei Değerleri Listesi](https://developers.trendyol.com/docs/ürün-menşei-değerleri.md)
+    - [Marka Yaratma Servisi](https://developers.trendyol.com/docs/marka-yaratma-servisi.md)
+    - [Ürün Bilgileri Güncelleme Sonucu Kontrol Servisi](https://developers.trendyol.com/docs/ürün-bilgileri-güncelleme-sonucu-kontrol-servisi.md)
+    - [Kargo Firması Filtreleme Servisi](https://developers.trendyol.com/docs/kargo-firması-filtreleme-servisi.md)
+  - [Garanti Belgesi Gönderimi](https://developers.trendyol.com/docs/garanti-belgesi-gönderimi.md)
+  - [Test Ortam IP Whitelist Yönetimi](https://developers.trendyol.com/docs/test-ortam-ip-whitelist-yönetimi.md)
+- 7. Trendyol Muhasebe Ve Finans Entegrasyonu
+  - [Cari Hesap Ekstresi Entegrasyonu](https://developers.trendyol.com/docs/cari-hesap-ekstresi-entegrasyonu.md)
+  - [Kargo Faturası Detayları](https://developers.trendyol.com/docs/kargo-faturası-detayları.md)
+- [8. Trendyol Akademi](https://developers.trendyol.com/docs/10-trendyol-akademi.md)
+- [9. Trendyol E-Faturam Entegrasyonu](https://developers.trendyol.com/docs/11-trendyol-e-faturam-entegrasyonu.md)
+- [10. Taleplerim](https://developers.trendyol.com/docs/support-request.md)
+- [Api HealthCheck](https://developers.trendyol.com/docs/api-status.md): Sistemlerimizin anlık çalışma durumunu takip edebilir ve servislerimizin erişilebilirliğini buradan kontrol edebilirsiniz.
+
+## API Reference: Trendyol Marketplace Entegrasyonu
+- Sipariş Entegrasyonu
+  - [Sipariş Paketlerini Çekme - getShipmentPackages](https://developers.trendyol.com/reference/getshipmentpackages.md): Müşteriler tarafından verilen her sipariş hakkındaki sipariş paketlerini çekebilirsiniz.
+  - [Sipariş Paketlerini Akış ile Çekme - getShipmentPackagesStream](https://developers.trendyol.com/reference/getshipmentpackagesstream.md): Müşteriler tarafından verilen sipariş paketlerini cursor tabanlı sayfalama kullanarak çekebilirsiniz. Bu yöntem, sayfa numarası tabanlı sayfalamaya kıyasla daha verimli ve güvenilir bir sipariş…
+  - [Paket Statü Bildirimi - updatePackage](https://developers.trendyol.com/reference/updatepackagestatus.md): Siparişlerin paketlerini Picking veya Invoiced statüsüne güncelleyebilirsiniz.
+  - [Tedarik Edememe Bildirimi - updatePackage](https://developers.trendyol.com/reference/cancelorderpackageitem.md): Sipariş Paketindeki bir veya daha fazla ürünü iptal etmek için bu metodu kullanabilirsiniz.
+  - [Desi ve Koli Bilgisi Bildirimi - updateBoxInfo](https://developers.trendyol.com/reference/updateboxinfo.md): Bu servis ile UPS Kargo ve CEVA Lojistik firmalarının sipariş paketleriniz için desi ve koli miktarını besleyebilirsiniz.
+  - [Yetkili Servis ile Gönderim - deliveredByService](https://developers.trendyol.com/reference/deliveredbyservice.md): Ürünlerini yetkili servise gönderen satıcılari mızın bu servisi çağırması gerekmektedir.
+  - [Paket Kargo Firmasi Değiştirme - changeCargoProvider](https://developers.trendyol.com/reference/changecargoprovider.md): Bu servis paketlerin kargo firmasıni değiştirmek için kullanılır.
+  - [Depo Bilgisi Güncelleme - updateWarehouse](https://developers.trendyol.com/reference/updatewarehouse.md): Bu servis ile Picking Sipariş Paketlerini Çekme servisinden dönen WarehouseId alanı güncellenecektir.
+  - [Ek Tedarik Süresi Tanımlama - agreedDeliveryDate](https://developers.trendyol.com/reference/extendagreeddeliverydate.md): Satıcılari miz sipariş paketleri için ek tedarik süreleri tanımlayabilir.
+  - [İşçilik Maliyeti Güncelleme - laborCosts](https://developers.trendyol.com/reference/updatelaborcosts.md): İşçilik maliyeti tutarını beslemek için bu servisi kullanabilirsiniz.
+- Sipariş Paketlerini Bölme
+  - [Sipariş Paketlerini Barkod Bazlı Bölme - splitMultiPackageByQuantity](https://developers.trendyol.com/reference/splitmultipackagesbyquantity.md): Bu metod ile sipariş paketindeki ürünleri miktar ve orderLineId değerleri ile bölebilirsiniz.
+  - [Sipariş Paketlerini Bölme - splitShipmentPackage](https://developers.trendyol.com/reference/splitshipmentpackage.md): Bu servisi kullandiktan sonra sipariş numarasına bağlı yeni paketler asenkron olarak oluşturulacaktir.
+  - [Sipariş Paketlerini Birden Fazla Barkod İle Bölme - splitShipmentPackageByQuantity](https://developers.trendyol.com/reference/splitshipmentpackagebyquantity.md): Bu servisi kullandiktan sonra sipariş numarasına bağlı yeni paketler asenkron olarak oluşturulacaktir.
+  - [Sipariş Paketlerini Birden Fazla Barkod İle Bölme - multiSplitShipmentPackage](https://developers.trendyol.com/reference/multisplitshipmentpackage.md): Bu servisi kullandiktan sonra sipariş numarasına bağlı yeni paketler asenkron olarak oluşturulacaktir.
+- Alternatif Teslimat ile Gönderim
+  - [Kargo Linki ile Gönderim - processAlternativeDelivery](https://developers.trendyol.com/reference/processalternativedelivery.md): Sipariş paketini gönderdikten sonra, sahip olduğunuz kargo takip linki veya telefon numarası ile besleyebilirsiniz. Bu isteği başarıyla gönderdikten sonra sipariş otomatik olarak Shipped statüsüne…
+  - [Dijital Ürün Teslimati ile Alternatif Teslimat - processAlternativeDelivery](https://developers.trendyol.com/reference/processalternativedeliverydigital.md): Bu servisi çağırdığınızda, sağladığınız bilgiler müşterilere sms ve e-posta yoluyla otomatik olarak gönderilecektir.
+  - [Paket Numarasi ile Teslim - manualDeliverByPackageId](https://developers.trendyol.com/reference/manualdeliverbypackageid.md): Paket ID ile manuel teslimat bildirimi
+  - [Kargo Takip Numarasi ile Teslim - manualDeliverByTrackingNumber](https://developers.trendyol.com/reference/manualdeliverbytrackingnumber.md): Kargo takip numarası ile manuel teslimat bildirimi
+  - [Kargo Takip Numarasi ile İade - manualReturnByTrackingNumber](https://developers.trendyol.com/reference/manualreturnbytrackingnumber.md): Shipped statüsünde olan ve müşteriye teslim edilemeyen siparişlerin deponuza iade edilmesi durumunda bu servisi kullanabilirsiniz.
+  - [Paket Numarasi ile İade - manualReturnByPackageId](https://developers.trendyol.com/reference/manualreturnbypackageid.md): Shipped statüsünde olan ve müşteriye teslim edilemeyen siparişlerin deponuza iade edilmesi durumunda bu servisi kullanabilirsiniz.
+- Adres Bilgileri
+  - [Ülke Bilgisi](https://developers.trendyol.com/reference/getcountries.md): Aşağıdaki servisten ülke bilgisini alabilirsiniz.
+  - [GULF ve CEE Ülkeleri için Şehir Bilgisi](https://developers.trendyol.com/reference/getcitiesbycountry.md): GULF ve CEE bölgesi için şehir bilgisini aşağıdaki servisten alabilirsiniz.
+  - [GULF Ülkeleri için İlçe Bilgisi](https://developers.trendyol.com/reference/getdistrictsbycity.md): GULF ülkeleri için ilçe bilgisini aşağıdaki servisten alabilirsiniz.
+  - [Azerbaycan için Şehir Bilgisi](https://developers.trendyol.com/reference/getazerbaijancities.md): Azerbaycan için şehir bilgisini aşağıdaki servisten alabilirsiniz.
+  - [Azerbaycan için İlçe Bilgisi](https://developers.trendyol.com/reference/getazerbaijandistricts.md): Azerbaycan için ilçe bilgisini aşağıdaki servisten alabilirsiniz.
+  - [Türkiye için Şehir Bilgisi](https://developers.trendyol.com/reference/gettürkeycities.md): Türkiye için şehir bilgisini aşağıdaki servisten alabilirsiniz.
+  - [Türkiye için İlçe Bilgisi](https://developers.trendyol.com/reference/gettürkeydistricts.md): Türkiye için ilçe bilgisini aşağıdaki servisten alabilirsiniz.
+  - [Türkiye için Mahalle Bilgisi](https://developers.trendyol.com/reference/gettürkeyneighborhoods.md): Türkiye için mahalle bilgisini aşağıdaki servisten alabilirsiniz.
+- İade Entegrasyonu
+  - [İadesi Oluşturulan Siparişleri Çekme - getClaims](https://developers.trendyol.com/reference/getclaims.md): Bu metod ile Trendyol sisteminden iade edilen siparişler hakkındaki bilgileri çekebilirsiniz.
+  - [İade Talebi Oluşturma - createClaim](https://developers.trendyol.com/reference/createclaim.md): İade kodu olmadan gelen sipariş paketleri için iade talebi paketleri oluşturmak için kullanabilirsiniz.
+  - [İade Siparişleri Onaylama - approveClaimLineItems](https://developers.trendyol.com/reference/approveclaimlineitems.md): Trendyol sisteminde deponuza iade edilen iade siparişlerini bu metod ile onaylayabilirsiniz.
+  - [İade Siparişlerde Ret Talebi Oluşturma - createClaimIssue](https://developers.trendyol.com/reference/createclaimissue.md): Trendyol sisteminde deponuzdaki iade siparişleri için ret talebi oluşturabilirsiniz. İadeye ait ekleri (pdf, jpeg vb.) "form-data (file)" olarak eklemeniz gerekmektedir.
+  - [İade Red Sebeplerini Çekme - getClaimIssueReasons](https://developers.trendyol.com/reference/getclaimissuereasons.md): createClaimIssue servisine gönderilecek claimIssueReasonId değerine bu servisi kullanarak ulaşabilirsiniz.
+  - [İade Audit Bilgilerini Çekme - getClaimItemAudits](https://developers.trendyol.com/reference/getclaimitemaudits.md): Bu servis ile iade siparişinin statü ilerlemesini, güncelleme tarihini, işlemi yapan kişiyi kontrol edebilirsiniz.
+
+## API Reference: Trendyol Test Sipariş API'si
+- Test Siparişi
+  - [Test Siparişi Oluşturma](https://developers.trendyol.com/reference/createtestorder.md): Test siparişi oluşturma servisi STAGE ortamında talep edilen senaryolarda test siparişi oluşturulması için kullanılacaktır.
+  - [Test Siparişlerinde Statü Güncellemeleri](https://developers.trendyol.com/reference/updatetestorderstatus.md): Test senaryolarınızı gerçekleştirmek adına stage ortamda vermiş olduğunuz siparişler için statüleri güncelleyebilirsiniz.
+  - [İade Test Siparişlerini WaitingInAction Statüsüne Çekme](https://developers.trendyol.com/reference/updatetestclaimtowaitinginaction.md): Test senaryolarınızı gerçekleştirmek adına stage ortamda vermiş olduğunuz siparişler için yaratmış olduğunuz iade talepleri sonrasında iade statüsünü waitinginaction'a çekmek için kullanabilirsiniz.
+
+## API Reference: Trendyol Webhook API'si
+- Webhook
+  - [Webhook Yaratma - createWebhook](https://developers.trendyol.com/reference/createwebhook.md): Bu servis ile sipariş paketleriniz için webhook yapısı kurabilirsiniz.
+  - [Webhook Listeleme - getWebhook](https://developers.trendyol.com/reference/getwebhooks.md): Bu servis ile daha önce yaratmış olduğunuz webhook methodlarını listeleyebilirsiniz.
+  - [Webhook Güncelleme - updateWebhook](https://developers.trendyol.com/reference/updatewebhook.md): Bu servis ile daha önce yaratmış olduğunuz webhook methodlarını güncelleyebilirsiniz.
+  - [Webhook Silme - deleteWebhook](https://developers.trendyol.com/reference/deletewebhook.md): Bu servis ile daha önce yaratmış olduğunuz webhook methodlarını silebilirsiniz.
+  - [Webhook Aktife Alma - activate](https://developers.trendyol.com/reference/activatewebhook.md): Bu servis ile pasif durumunda olan webhook methodlarını aktife alabilirsiniz.
+  - [Webhook Pasife Alma - deactivate](https://developers.trendyol.com/reference/deactivatewebhook.md): Bu servis aktif durumunda olan webhook methodlarını pasife alabilirsiniz.
+
+## API Reference: Fatura Entegrasyonu (Invoice Integration)
+- Fatura Linki Yönetimi
+  - [Fatura Linki Gönderme - sendInvoiceLink](https://developers.trendyol.com/reference/sendinvoicelink.md): Tedarikçi tarafından kendi sisteminde yaratılmış e-Arşiv ya da e-Fatura bilgisinin LİNK detayını Trendyol sistemine transfer etmek için bu method kullanılacaktır.
+  - [Fatura Linki Silme - deleteInvoiceLink](https://developers.trendyol.com/reference/deleteinvoicelink.md): Daha önce hatalı beslenen faturalar bu servis üzerinden silinip, fatura linki gönderme servisi ile tekrar beslenebilmektedir.
+- Fatura Dosyası Yönetimi
+  - [Fatura Dosyası Gönderme - uploadInvoiceFile](https://developers.trendyol.com/reference/uploadinvoicefile.md): Satıcıların sipariş paketleri için fatura dosyalarını (PDF, JPEG, PNG) yüklemelerini sağlar.
+
+## API Reference: Trendyol Marketplace - Satıcı Bilgileri Entegrasyonu
+- Satıcı Bilgileri Entegrasyonu
+  - [İade, Sevkiyat ve Fatura Adres Bilgileri - getSuppliersAddresses](https://developers.trendyol.com/reference/getsuppliersaddresses.md): createProduct V2 servisine yapılacak isteklerde gönderilecek iade, sevkiyat ve fatura adres bilgileri  ile kargo firma bilgileri ve bu bilgilere ait ID değerleri bu servis kullanılarak alınacaktır.…
+
+## API Reference: Trendyol Marketplace - Ortak Etiket Barkod Entegrasyonu
+- Ortak Etiket Barkod Talep Entegrasyonu
+  - [Ortak Etiket Barkod Talebi - createCommonLabel](https://developers.trendyol.com/reference/createcommonlabel.md): Ortak barkod süreci TEX, Aras Kargo için Trendyol öder gönderilerde kullanılabilmektedir. Bu servis ile ortak etiket sürecindeki siparişler için ilgili kargo numarasına ait barkod talebi…
+- Ortak Etiket Barkod Alma Entegrasyonu
+  - [Ortak Etiket Oluşan Barkodun Alınması - getCommonLabel](https://developers.trendyol.com/reference/getcommonlabel.md): Ortak barkod süreci TEX, Aras Kargo için Trendyol öder gönderilerde kullanılabilmektedir. Bu servis ile createCommonLabel servisinden talep edilen barkodu alabilirsiniz.  **Önemli Notlar:** -…
+
+## API Reference: Trendyol Express Entegrasyonu
+- Tazmin Listeleme Entegrasyonu
+  - [Trendyol Express siparişlerindeki tazmin istekleri çekme - getCompensationTickets](https://developers.trendyol.com/reference/getcompensationtickets.md): Trendyol Express siparişlerinizdeki tazmin işlemlerinin durumlarını çekebilirsiniz.
+
+## API Reference: Trendyol Pazaryeri - Müşteri Soruları Entegrasyonu
+- Müşteri Soruları Entegrasyonu
+  - [Müşteri Sorularını Filtreleme](https://developers.trendyol.com/reference/getquestionfilter.md): Satıcıya gelen soruları çeşitli kriterlere göre filtreleyerek listeler.  Pagination yapısı mevcuttur.
+  - [Soru Detayını Getirme](https://developers.trendyol.com/reference/getquestion.md): ID bilgisi verilen tek bir sorunun tüm detaylarını getirir.
+  - [Soruyu Cevaplama](https://developers.trendyol.com/reference/answerquestion.md): Müşteriden gelen bir soruya cevap verilir. Cevap metni değerlendirildikten sonra yayınlanır.
+
+## API Reference: Trendyol Yurtiçi Cari Hesap Ekstresi Entegrasyonu
+- Settlements
+  - [Settlements Servisi](https://developers.trendyol.com/reference/getsettlements.md): Satış, iade, indirim, kupon, provizyon işlemlerinin detaylarına ulaşabilirsiniz. Transaction Type, SellerRevenuePositive ve CommissionNegative birlikte değerlendirilmelidir. Transaction Type,…
+- Other Financials
+  - [Other Financials Servisi](https://developers.trendyol.com/reference/getotherfinancials.md): Tedarikçi finansmanı, virman, ödemeler (hakediş), faturalar (Trendyoldan tedarikçiye), tedarikçi faturaları (Tedarikçiden Trendyola), gelen havale, komisyon mutabakat faturaları işlemlerinin…
+- Payment Order
+  - [Payment Order List Servisi](https://developers.trendyol.com/reference/getpaymentorder.md): Satıcının PAID ödeme emirlerini sayfalı listeler (varsayılan/maksimum size=10). Cevap bir ödeme emri listesidir. id alanı paymentOrderId, tarih alanı payoutDate'tir.
+
+## API Reference: Trendyol Yurtiçi Kargo Faturası Detayları Entegrasyonu
+- Cargo Invoice
+  - [Kargo Faturası Detayları Servisi](https://developers.trendyol.com/reference/getcargoinvoiceitems.md): Trendyol tarafından satıcılara kesilen kargo faturalarının detaylarına ulaşabilirsiniz.  Kargo faturasının seri numarasını bulmak için Cari Hesap Ekstresi Entegrasyonu üzerinden…
+
+## API Reference: Trendyol İhracat Merkezi (AutoFT) Entegrasyonu
+- Ürün Entegrasyonu
+  - [Ürün Oluşturma V2](https://developers.trendyol.com/reference/autoft-create-products-v2.md): Trendyol Pazaryeri'nde onaylanmış ürünleri ihracata açmak için kullanılır.  Satıcı Paneli'nde oluşturulmayan ürünler, İhracat Merkezi'nde oluşturulamaz.  > Barkod bazında günde **1** kez fiyat…
+  - [Ürün Listeleme](https://developers.trendyol.com/reference/autoft-list-products.md): Trendyol'da ihracata açılmış ürünleri listelemek için kullanılır.  > **Not:** Döviz türü (currency) bilgisi ihracat merkezine başvuru sırasında satıcı tarafından seçilmektedir.
+- Ürün Lookup
+  - [Menşei Listesi](https://developers.trendyol.com/reference/autoft-get-origins.md): [Ürün Oluşturma V2](../reference/autoft-create-products-v2) adımında, request modelde istenen origin değerleri bu endpointten liste olarak alınır.
+  - [Materyal Bileşenleri](https://developers.trendyol.com/reference/autoft-get-compositions.md): [Ürün Oluşturma V2](../reference/autoft-create-products-v2) adımında, request modelde istenen composition değerleri bu endpointten liste olarak alınır.
+  - [Yıkama Talimatları](https://developers.trendyol.com/reference/autoft-get-care-instructions.md): [Ürün Oluşturma V2](../reference/autoft-create-products-v2) adımında, request modelde istenen yıkama talimatları değerleri bu endpointten liste olarak alınır.
+  - [Kategoriye Göre Zorunlu Özellik Listesi](https://developers.trendyol.com/reference/autoft-get-category-attributes.md): [Ürün Oluşturma V2](../reference/autoft-create-products-v2) adımında, request modelde istenen zorunlu özellik listesi bu endpointten alınır.
+  - [Barkod ile Kategori Bilgisi Listeleme](https://developers.trendyol.com/reference/autoft-get-categories-by-barcodes.md): [Ürün Oluşturma V2](../reference/autoft-create-products-v2) adımında, zorunlu özellik listesini elde etmek için gerekli olan  categoryId bilgisi barkod bilgisi ile bu endpointten listelenebilir.
+- Stok Entegrasyonu
+  - [Ürün Stok Bilgisi Güncelleme](https://developers.trendyol.com/reference/autoft-update-stocks.md): İhracata açık olan ürünlerin stok bilgilerinin güncellenmesi ve geri beslenmesi için kullanılır.  Ürünlerin öncelikle Ürün Oluşturma adımında oluşturulduğundan emin olunmalıdır.  Eğer talep edilirse…
+- Fiyat Entegrasyonu
+  - [Fiyat Güncelleme](https://developers.trendyol.com/reference/autoft-update-prices.md): İhracata açık olan ürünlerin fiyat bilgilerinin güncellenmesi ve geri beslenmesi için kullanılır.  Burada belirlenen fiyat KDV dahil Trendyol'a satış fiyatı olmalıdır.  > Barkod bazında günde **1**…
+- Paket Entegrasyonu
+  - [Paket Listeleme V2](https://developers.trendyol.com/reference/autoft-list-packages-v2.md): Gün içerisinde oluşan yeni paketlerinizi buradan takip edebilirsiniz. Sipariş almanız durumunda her gün 08:00 - 08:15 saatleri arasında yeni bir paketiniz oluşacaktır. Paketleri günlük olarak takip…
+  - [Paket Detayı V2](https://developers.trendyol.com/reference/autoft-get-package-items-v2.md): İlgili paket içerisinde bulunan ürünlerin detayları buradan alınmalıdır.  Henüz oluşmayan ve bir sonraki gün oluşturulacak olan paketleriniz için bu servisi kullanabilir (status = new)  ve tedarik…
+  - [Paket Listeleme V3](https://developers.trendyol.com/reference/autoft-list-packages-v3.md): Paket Listeleme ve Paket Detay için iki ayrı API kullanmak istemeyen iş ortaklarımız tek endpoint olarak kullanabilir.  **⚠️ ÖNEMLİ:** - **new** durumunda bulunan ürünler iptal edildiğinde,…
+- İşlem Sonuç Entegrasyonu
+  - [Batch ID ile İşlem Sonucu Sorgulama](https://developers.trendyol.com/reference/autoft-check-batch-status.md): Response olarak batchId aldığınız işlemlerin sonuçlarını bu endpoint üzerinden takip edebilirsiniz.  > **Not:** İşlemler sonucunda dönen batchId **24 saat** sonra sistemden silinecektir.
+
+## API Reference: Trendyol Marketplace - Ürün Entegrasyonu API
+- Brands
+  - [Marka Listesi (getBrands)](https://developers.trendyol.com/reference/getbrands.md): createProduct servisine yapılacak isteklerde gönderilecek brandId bilgisi bu servis kullanılarak alınır. Bir sayfada minimum 1000 adet brand bilgisi alınabilmektedir.
+  - [Marka Arama (getBrandsByName)](https://developers.trendyol.com/reference/getbrandsbyname.md): İsme göre marka arama. BÜYÜK/küçük harf ayrımına dikkat edilmelidir.
+  - [Marka Yaratma Servisi (createBrand)](https://developers.trendyol.com/reference/createbrand.md): Trendyol Marka Listesi'nde bulunmayan markaların yaratılması için kullanılır. İstek JSON body ile değil form-data ile gönderilir. Marka ismi "name" alanı ile text olarak, marka görselleri "images"…
+- Categories
+  - [Kategori Listesi (getCategoryTree)](https://developers.trendyol.com/reference/getcategorytree.md): createProduct servisine yapılacak isteklerde gönderilecek categoryId bilgisi bu servis kullanılarak alınır. En alt seviyedeki kategori ID bilgisi kullanılmalıdır. Kategori ağacı belirli aralıklarla…
+  - [Kategori Özellik Listesi (getCategoryAttributes)](https://developers.trendyol.com/reference/getcategoryattributes.md): Ürün Yaratma servisine yapılacak isteklerde gönderilecek attributes bilgileri bu servis kullanılarak alınır. allowMultipleAttributeValues alanı ile çoklu değer desteği kontrol edilir. En alt…
+  - [Kategori Özellik Değerleri Listesi (getCategoryAttributeValues)](https://developers.trendyol.com/reference/getcategoryattributevalues.md): Ürün Yaratma servisine yapılacak isteklerde gönderilecek attributes values bilgileri bu servis kullanılarak alınır.
+- Products
+  - [Ürün Yaratma V2 (createProducts)](https://developers.trendyol.com/reference/createproducts.md): Ürünleri Trendyol sistemine yükler. Attribute yapısında attributeValueIds (array) veya attributeValue (string) kullanılır. Her istek içerisinde gönderilebilecek maksimum item sayısı 1.000'dir.…
+  - [Ürün Filtreleme - Temel Bilgiler (getProductBase)](https://developers.trendyol.com/reference/getproductbase.md): Trendyol mağazanızdaki ürününüzün temel durum bilgisini döner.
+  - [Ürün Filtreleme - Onaysız Ürün (filterUnapprovedProducts)](https://developers.trendyol.com/reference/filterunapprovedproducts.md): Trendyol mağazanızdaki onaysız (draft) ürünleri listeler. Onay süreci devam eden ve reddedilen ürünleri içerir. nextPageToken 10.000'den fazla onaysız barcode olması halinde kullanılır. page x size…
+  - [Ürün Filtreleme - Onaylı Ürün (filterApprovedProducts)](https://developers.trendyol.com/reference/filterapprovedproducts.md): Trendyol mağazanızdaki onaylı ürünleri listeler. Content bazlı yapıda döner, her content altında variants dizisi bulunur. nextPageToken 10.000'den fazla content olması halinde kullanılır. page x size…
+  - [Ürün Filtreleme - Onaylı Ürün Stok ve Fiyat (filterApprovedProductsInventoryAndPrice)](https://developers.trendyol.com/reference/filterapprovedproductsinventoryandprice.md): Onaylı ürünlerin yalnızca stok ve fiyat bilgilerini döner. nextPageToken 10.000'den fazla onaylı content olması halinde kullanılır. page x size maksimum 10.000 değerini alabilir.…
+  - [Ürün Silme (deleteProducts)](https://developers.trendyol.com/reference/deleteproducts.md): Ürünleri Trendyol sisteminden kaldırır. Tekli ve çoklu ürün silme işlemini destekler. Onay bekleyen ürünler ve arşivde bir günden fazla bulunmuş, Trendyol tarafından satışa durdurulmamış onaylı…
+  - [Ürün Arşivleme (archiveProducts)](https://developers.trendyol.com/reference/archiveproducts.md): Ürünleri Trendyol sisteminde arşivler veya arşivden çıkarır. Tekli ve çoklu ürün arşivleme işlemlerini destekler. Her istek içerisinde gönderilebilecek maksimum item sayısı 1.000'dir.
+  - [Ürün Buybox Kontrol Servisi (getBuyboxInformation)](https://developers.trendyol.com/reference/getbuyboxinformation.md): Ürünlerin buybox bilgisini döner: buybox sırası, buybox fiyatı ve birden fazla satıcı olup olmadığı. Maksimum 10 barcode gönderilebilir. Servis limiti 1000 req/min.
+  - [Ürün Kilit Kaldırma Servisi (unlockProducts)](https://developers.trendyol.com/reference/unlockproducts.md): Kilitli ürünlerin kilidini kaldırır. Düşük/yüksek fiyatlandırma, kritik fiyat hatası veya tedarik edememe sebepleriyle satışı durdurulan ürünlerin kilitleri bu servis ile açılabilir.
+- Updates
+  - [Ürün Güncelleme - Onaysız Ürün (updateUnapprovedProducts)](https://developers.trendyol.com/reference/updateunapprovedproducts.md): Trendyol mağazanızdaki onaysız ürünleri günceller. Her istek içerisinde gönderilebilecek maksimum item sayısı 1.000'dir.
+  - [Ürün Güncelleme - Onaylı Content (updateContentBulk)](https://developers.trendyol.com/reference/updatecontentbulk.md): Onaylı ürünlerin content bilgilerini günceller. Attribute değerleri hariç partial update desteklenir. Attribute'lardan herhangi biri güncellenecekse tüm attribute ve değerleri gönderilmelidir. Her…
+  - [Ürün Güncelleme - Onaylı Varyant (updateVariantBulk)](https://developers.trendyol.com/reference/updatevariantbulk.md): Onaylı ürünlerin varyant bilgilerini günceller. barcode alanı hariç tüm alanlar güncellenebilir. Partial update desteklenmez. Maksimum 1.000 item.
+  - [Ürün Güncelleme - Teslimat Bilgisi (updateDeliveryInfoBulk)](https://developers.trendyol.com/reference/updatedeliveryinfobulk.md): Onaylı ürünlerin teslimat bilgilerini günceller. barcode alanı hariç tüm alanlar güncellenebilir. Maksimum 1.000 item.
+  - [Ürün Bilgileri Güncelleme Sonucu Kontrol Servisi (getUpdateAudits)](https://developers.trendyol.com/reference/getupdateaudits.md): Ürün bilgilerini güncelleme servislerinden yapılan ve başarılı sonuçlanan isteklerin, ürün kontrol adımı sonucunu döner. Güncelleme reddedilmişse rejectReasons alanı ile red sebepleri iletilir. Dönen…
+- Inventory
+  - [Stok ve Fiyat Güncelleme (updatePriceAndInventory)](https://developers.trendyol.com/reference/updatepriceandinventory.md): Trendyol'a aktarılan ve onaylanan ürünlerin fiyat ve stok bilgilerini günceller. Aynı isteği 15 dakika boyunca tekrarlı olarak atamazsınız. Maksimum 1000 item, ürün başına maksimum 20.000 stok.
+- BatchRequests
+  - [Toplu İşlem Kontrolü (getBatchRequestResult)](https://developers.trendyol.com/reference/getbatchrequestresult.md): batchRequestId ile alınan işlemlerin sonuç kontrolü yapılır. status alanı kontrol edilerek toplu işlemin tamamlanıp tamamlanmadığı kontrol edilir. Batch request sonuçları 4 saat sonrasına kadar…
+- Lookup
+  - [Kargo Firması Filtreleme Servisi (getCargoProviders)](https://developers.trendyol.com/reference/getcargoproviders.md): Kullanılabilecek kargo sağlayıcılarını listeler. Dönen code değerleri ürün yaratma ve güncelleme isteklerindeki cargoProviders alanında gönderilebilir. Liste storefront bilgisine göre değişir;…
+
+## Changelog
+- [Changelog](https://developers.trendyol.com/changelog/changelog.md)

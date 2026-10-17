@@ -1,0 +1,62 @@
+{
+  "name": "trendyol-mcp",
+  "version": "0.1.0",
+  "description": "Trendyol Partner (Marketplace) API için MCP sunucusu: tüm geliştirici dokümantasyonu + 93 API işlemini yapay zekâ asistanlarına açar.",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "trendyol",
+    "marketplace",
+    "e-commerce",
+    "pazaryeri",
+    "trendyol-api",
+    "claude",
+    "cursor"
+  ],
+  "homepage": "https://github.com/enzifiri/trendyol-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/enzifiri/trendyol-mcp/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enzifiri/trendyol-mcp.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Enzifiri",
+    "url": "https://github.com/enzifiri"
+  },
+  "mcpName": "io.github.enzifiri/trendyol-mcp",
+  "type": "module",
+  "bin": {
+    "trendyol-mcp": "dist/index.js"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist",
+    "data",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "sync-docs": "node scripts/sync-docs.mjs",
+    "build-catalog": "node scripts/build-catalog.mjs",
+    "update-docs": "npm run sync-docs && npm run build-catalog",
+    "test": "npm run build && node scripts/smoke-test.mjs",
+    "inspect": "npx @modelcontextprotocol/inspector node dist/index.js",
+    "prepublishOnly": "npm run build && node scripts/smoke-test.mjs"
+  },
+  "engines": {
+    "node": ">=18.17"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.1",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "typescript": "^5.9.3"
+  }
+}
